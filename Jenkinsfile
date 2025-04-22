@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/nurlailasari/selenium-jenkins-test.git' // Replace with your Git repository URL
             }
         }
-
+        
         stage('Run Selenium Tests') {
             steps {
                 // Add commands to run your Selenium tests (e.g., using Maven)
